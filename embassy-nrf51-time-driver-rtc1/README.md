@@ -1,0 +1,2 @@
+# Embassy Time Driver Using RTC1 on NRF51 devices
+Embassy RTC1 time driver based on driver from embassy-nrf crate adopted to work on NRF51 devices. It is basically a fork of [e10fc2bada1c59420431f09a35f7aa09a5b45623](https://github.com/embassy-rs/embassy/commits/master/embassy-nrf/src/time_driver.rs) where atomic operations not available on Cortex-M0 were replaced by mutex guards.
